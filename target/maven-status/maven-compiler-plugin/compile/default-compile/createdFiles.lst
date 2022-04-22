@@ -1,0 +1,7 @@
+dhruvi\hibernate\Employee.class
+dhruvi\hibernate\StudentDao.class
+dhruvi\hibernate\Student.class
+hibernate\mappings\Employee.class
+hibernate\mappings\OneToOneMain.class
+hibernate\mappings\Contact.class
+dhruvi\hibernate\App.class

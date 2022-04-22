@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE hibernate-mapping PUBLIC
+        "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping package="dhruvi.hibernate">
+
+<class name="Employee" table="EMPLOYEE">
+	<id name="empID">
+		<generator class="assigned"></generator>	
+	</id>
+	<property name="fname"></property>  
+    <property name="lname"></property> 
+	
+</class>
+
+
+</hibernate-mapping>

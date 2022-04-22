@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xmlns:context="http://www.springframework.org/schema/context"
+    xmlns:p="http://www.springframework.org/schema/p"
+    xmlns:c="http://www.springframework.org/schema/c"
+    xsi:schemaLocation="http://www.springframework.org/schema/beans
+        https://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+        https://www.springframework.org/schema/context/spring-context.xsd">
+    
+    
+    <bean id="studentDao" class="dhruvi.hibernate.StudentDao" />
+	
+	<bean id="Dhruvi" class="dhruvi.hibernate.Student" p:name="Dhruvi" p:subject="Java" />
+	<bean id="Bhoomi" class="dhruvi.hibernate.Student" p:name="Bhoomi" p:subject="Python" />
+	<bean id="Khushi" class="dhruvi.hibernate.Student" p:name="Khushi" p:subject="Ruby" />
+	<bean id="Jay" class="dhruvi.hibernate.Student" p:name="Jay" p:subject="Android" />
+	<bean id="Brijesh" class="dhruvi.hibernate.Student" p:name="Brijesh" p:subject="Kotlin" />
+	<bean id="Yash" class="dhruvi.hibernate.Student" p:name="Yash" p:subject="Javascript" />
+	
+        
+</beans>
